@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255) url(pics/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    
+}
+
+.aside-block {
+    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    background: rgba(11,11,13,0.4);
+    text-align: center;
+    padding: 70px 50px 100px 0;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0;
+}
+
+.you {
+    color: hsl(259, 100%, 73%);
+}
+
+.you:hover {
+    color: yellow;
+}
+
+.aside-block ul {
+    list-style-type: none;
+}
+
+.aside-block li {
+    padding-top: 40px;
+}
+
+.aside-block li:hover {
+    color: yellow;
+}
+
+.foot {
+    display: flex;
+    align-items: flex-end;
+    padding: 250px 100px 10px 90px
+}
+
+.foot li:hover {
+    color: yellow;
+}
+
+.copy {
+    text-align: left;
+    padding: 200px 0 0 80px;
+    color: rgba(255,255,255,0.2)  
+}
+
+.social-block {
+    position: relative;
+    background-color: #a276ff;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    left: 1300px;
+
+}
+.social-block:hover {
+    background-color: yellow;
+}
+
+.main {
+    width: 1090px;
+    position: relative;
+    padding-top: 330px;
+}
+
+.container {
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h1 {
+    text-align: left;
+   float
+    font-size: 56px;
+    margin-left: 100px;
+}
+
+.container h2 {
+    color: #a276ff;
+    font-size: 120px;
+    margin-left: 100px;
+
+}
+.container h2:hover {
+    color: yellow;
+}
+
+.container p {
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 100px;
+}
+.cards{
+    display: flex;
+    height: 185px;
+    width: 255px;
+   float: left;
+   margin: 0 0 0 3.5px;
+   padding: 2px;
+   margin-left: 100px;
+   gap: 30px 30px;
+}
+
+.cards img {
+    border: 5px solid #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.cards img:hover {
+    border-color: yellow;
+}
+
+
+button {
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-bottom: 75px;
+    border: 5px solid #fff;
+    background-color: rgba(11,11,13,0);
+    color: #fff;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+
+.border:hover {
+    border-color: yellow 
+    ;
+}
+.info a:hover {
+    border:2px solid yellow;
+}
+.icon {
+    padding-top: 250px;
+    margin-left: 0;
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qwerty {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-left: 100px;
+
+}
